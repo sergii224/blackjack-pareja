@@ -1,7 +1,10 @@
 """
 juego.py — Lógica de puntuación y comprobaciones del Blackjack.
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/main
 """
 
 # Figuras y el 10 valen 10. El As se trata de forma especial (11 o 1).
@@ -22,8 +25,11 @@ VALORES_NUMERICOS = {
 }
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/main
 def calcular_puntuacion(mano):
     """Calcula la puntuación de una mano.
 
