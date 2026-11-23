@@ -24,6 +24,8 @@ VALORES_NUMERICOS = {
 }
 
 
+
+
 def calcular_puntuacion(mano):
     """Calcula la puntuación de una mano.
 
@@ -67,7 +69,6 @@ def determinar_ganador(mano_jugador, mano_banca):
     puntos_banca = calcular_puntuacion(mano_banca)
     blackjack_jugador = es_blackjack(mano_jugador)
     blackjack_banca = es_blackjack(mano_banca)
-        
 
     if se_pasa(mano_jugador):
         return ("banca", "Te has pasado de 21. Gana la banca.")
@@ -83,7 +84,6 @@ def determinar_ganador(mano_jugador, mano_banca):
 
     if blackjack_banca:
         return ("banca", "La banca tiene Blackjack. Gana la banca.")
-
 
     if puntos_jugador > puntos_banca:
         return (
