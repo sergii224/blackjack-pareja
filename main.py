@@ -1,9 +1,5 @@
 """
 main.py — Desarrollo de la partida y punto de entrada del programa.
-
-Asignado a: Alumno B ([COMPAÑERO])
-Práctica colaborativa: Blackjack con Git y GitHub
-IES María Moliner (Segovia) — 2.º DAW — Grupo DAW S2I
 """
 
 from cartas import crear_baraja, barajar, repartir, nombre_carta

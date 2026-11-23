@@ -1,9 +1,5 @@
 """
 juego.py — Lógica de puntuación y comprobaciones del Blackjack.
-
-Asignado a: Alumno A (Jorge Arribas Fernández)
-Práctica colaborativa: Blackjack con Git y GitHub
-IES María Moliner (Segovia) — 2.º DAW — Grupo DAW S2I
 """
 
 # Figuras y el 10 valen 10. El As se trata de forma especial (11 o 1).
