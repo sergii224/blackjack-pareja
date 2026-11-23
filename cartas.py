@@ -1,5 +1,11 @@
 """
 cartas.py — Gestión de la baraja y de las cartas del Blackjack.
+<<<<<<< HEAD
+
+
+
+=======
+>>>>>>> origin/main
 """
 
 import random
